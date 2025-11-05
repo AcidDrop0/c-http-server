@@ -9,9 +9,9 @@
 #include <stdbool.h>
 #include <pthread.h>
 
-#include "config.h"
-#include "handlers.h"
-#include "http_utils.h"
+#include "http/config.h"
+#include "http/handlers.h"
+#include "http/http_utils.h"
 
 ServerConfig config; // Global server configuration. This determines if the directory mode is enabled.
 
